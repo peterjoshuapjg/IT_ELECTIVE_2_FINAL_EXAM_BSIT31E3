@@ -33,78 +33,78 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                 {
                     new ProjectItem
                     {
-                         Id = 1,
-                Title = "BSIT31E1 Prelim H1",
-                Description = "Prelim hands-on activity for BSIT 31E1 focusing on core Web Development.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/BSIT31E1_PRELIM_H1_AYAP_DAIMERY",
-                ImageUrl = "/images/project1.jpg",
-                Comments = new List<string> { "Initial submission." }
-            },
-            new Project
-            {
-                Id = 2,
-                Title = "Weather Forecast App",
-                Description = "A sleek weather forecast application that tracks live climate data.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/Weather_Forecast_Ayap",
-                ImageUrl = "/images/project2.jpg",
-                Comments = new List<string> { "Very useful app!", "Clean code structure." }
-            },
-            new Project
-            {
-                Id = 3,
-                Title = "IT Elective BSIT 31E3",
-                Description = "Coursework and project repository for IT Elective BSIT 31E3.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_BSIT_31E3_ayap_daimerygold",
-                ImageUrl = "/images/project3.jpg",
-                Comments = new List<string> { "Well documented." }
-            },
-            new Project
-            {
-                Id = 4,
-                Title = "IT Elective 2 Midterm H1-H3",
-                Description = "Midterm hands-on activities 1 to 3 for IT Elective 2.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_H1_H2_H3",
-                ImageUrl = "/images/project4.jpg",
-                Comments = new List<string> { "Completed hands-on tasks." }
-            },
-            new Project
-            {
-                Id = 5,
-                Title = "IT Elective 2 Midterm Exam",
-                Description = "Midterm examination project implementation for IT Elective 2.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_EXAM_9_DaimeryAyap",
-                ImageUrl = "/images/project5.jpg",
-                Comments = new List<string> { "Great job on the exam project!" }
-            },
-            new Project
-            {
-                Id = 6,
-                Title = "IT Elective 2 Midterm Q3",
-                Description = "Midterm quiz 3 hands-on repository.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_Q3",
-                ImageUrl = "/images/project6.jpg",
-                Comments = new List<string> { "All requirements met." }
-            },
-            new Project
-            {
-                Id = 7,
-                Title = "IT Elective 2 Assignment One",
-                Description = "First assignment submission for IT Elective 2.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/Ayap_IT_ELECTIVE_2_Assignment_One",
-                ImageUrl = "/images/project7.jpg",
-                Comments = new List<string> { "Good logic implementation." }
-            },
-            new Project
-            {
-                Id = 8,
-                Title = "IT Elective 2 Prefinal Exam",
-                Description = "Prefinal examination project repository for BSIT 31E3.",
-                GitHubUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_BSIT-31E3_PREFINAL_EXAM_Ayap_DaimeryGold",
-                ImageUrl = "/images/project8.jpg",
-                Comments = new List<string> { "Complete implementation for prefinals." }
-            }
-        };
-
+                        Title = "BSIT31E1 Prelim H1",
+                        Stage = ProjectStage.Prelim,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/BSIT31E1_PRELIM_H1_AYAP_DAIMERY",
+                        Description = "Prelim hands-on activity for BSIT 31E1 focusing on core Web Development.",
+                        TechStack = new List<string> { "C#", ".NET", "Web Development" },
+                        ImagePath = "~/images/project1.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "Weather Forecast App",
+                        Stage = ProjectStage.Prelim,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/Weather_Forecast_Ayap",
+                        Description = "A sleek weather forecast application that tracks live climate data.",
+                        TechStack = new List<string> { "C#", ".NET", "ASP.NET Core" },
+                        ImagePath = "~/images/project2.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective BSIT 31E3",
+                        Stage = ProjectStage.Prelim,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_BSIT_31E3_ayap_daimerygold",
+                        Description = "Coursework and project repository for IT Elective BSIT 31E3.",
+                        TechStack = new List<string> { "C#", ".NET", "GitHub" },
+                        ImagePath = "~/images/project3.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective 2 Midterm H1-H3",
+                        Stage = ProjectStage.Midterm,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_H1_H2_H3",
+                        Description = "Midterm hands-on activities 1 to 3 for IT Elective 2.",
+                        TechStack = new List<string> { "C#", ".NET" },
+                        ImagePath = "~/images/project4.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective 2 Midterm Exam",
+                        Stage = ProjectStage.Midterm,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_EXAM_9_DaimeryAyap",
+                        Description = "Midterm examination project implementation for IT Elective 2.",
+                        TechStack = new List<string> { "C#", ".NET" },
+                        ImagePath = "~/images/project5.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective 2 Midterm Q3",
+                        Stage = ProjectStage.Midterm,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_MIDTERM_Q3",
+                        Description = "Midterm quiz 3 hands-on repository.",
+                        TechStack = new List<string> { "C#", ".NET" },
+                        ImagePath = "~/images/project6.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective 2 Assignment One",
+                        Stage = ProjectStage.Midterm,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/Ayap_IT_ELECTIVE_2_Assignment_One",
+                        Description = "First assignment submission for IT Elective 2.",
+                        TechStack = new List<string> { "C#", ".NET" },
+                        ImagePath = "~/images/project7.jpg"
+                    },
+                    new ProjectItem
+                    {
+                        Title = "IT Elective 2 Prefinal Exam",
+                        Stage = ProjectStage.PreFinal,
+                        RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_2_BSIT-31E3_PREFINAL_EXAM_Ayap_DaimeryGold",
+                        Description = "Prefinal examination project repository for BSIT 31E3.",
+                        TechStack = new List<string> { "C#", ".NET", "GitHub" },
+                        ImagePath = "~/images/project8.jpg"
+                    }
+                }
+            };
 
             return View(profile);
         }
