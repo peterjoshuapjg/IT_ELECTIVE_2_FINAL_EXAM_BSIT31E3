@@ -17,7 +17,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                 Course = "BS Information Technology",
                 Section = "31E3",
                 Bio = "Coursework portfolio for IT Elective 2, covering Prelims, Midterm, and Prefinals activities, quizzes, exams, and projects.",
-                PhotoPath = "~/images/ace.jpg",
+                PhotoPath = "\"C:\\Users\\user\\Downloads\\sumalinog.jpg\"",
                 Email = "c1982-24@itmlyceumalabang.onmicrosoft.com",
                 GitHubUrl = "https://github.com/AceySumalinog",
 
