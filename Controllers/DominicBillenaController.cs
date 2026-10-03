@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
 {
-    [Classmate("Dominic Billena")]
+    [Classmate("Billena, Dominic")]
     public class DominicBillenaController : Controller
     {
         public IActionResult Index()
