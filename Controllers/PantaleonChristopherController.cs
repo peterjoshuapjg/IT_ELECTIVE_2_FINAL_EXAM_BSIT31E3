@@ -1,121 +1,137 @@
 using IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
 {
-	public class PantaleonChristopherController : Controller
-	{
-		public IActionResult Index()
-		{
-			var profile = new ClassmateProfile
-			{
-				FullName = "Christopher Antonio D. Pantaleon",
-				Tagline = "BS Information Technology Student | IT Elective 2",
-				Course = "BS Information Technology",
-				Section = "31E3",
+    // This is Christopher Antonio D. Pantaleon's portfolio merged into the FINAL EXAM structure.
+    // The controller intentionally uses the final-exam project's existing models.
+    [Classmate("Pantaleon, Christopher Antonio")]
+    public class PantaleonChristopherController : Controller
+    {
+        public IActionResult Index()
+        {
+            var profile = new ClassmateProfile
+            {
+                FullName = "Christopher Antonio D. Pantaleon",
 
-				Bio = "A BS Information Technology student showcasing projects, activities, and skills in web development, system development, and information technology.",
+                Tagline = "BS Information Technology Student | IT Elective 2",
 
-				PhotoPath = "~/images/christopher.jpg",
+                Course = "BS Information Technology",
 
-				Email = "christopherpantaleon@gmail.com",
+                Section = "31E3",
 
-				GitHubUrl = "https://github.com/ChristopherPantaleon",
+                Bio = "Coursework portfolio for IT Elective 2, showcasing activities, projects, examinations, and system development work.",
 
-				Skills = new List<string>
-				{
-					"C#",
-					".NET",
-					"ASP.NET Core",
-					"MVC",
-					"Razor",
-					"HTML",
-					"CSS",
-					"JavaScript",
-					"VB.NET",
-					"MySQL",
-					"Git",
-					"GitHub"
-				},
+                PhotoPath = "~/images/christopher.jpg",
 
-				Projects = new List<ProjectItem>
-				{
-					new ProjectItem
-					{
-						Title = "IT Management System",
-						Stage = ProjectStage.Midterm,
-						RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
-						Description = "A web-based IT management system designed to manage IT operations, users, services, and other IT-related activities.",
+                Email = "christopherpantaleon@gmail.com",
 
-						TechStack = new List<string>
-						{
-							"C#",
-							"ASP.NET Core MVC",
-							"HTML",
-							"CSS"
-						},
+                GitHubUrl = "https://github.com/ChristopherPantaleon",
 
-						ImagePath = "~/images/projects/it-management.png"
-					},
+                Skills = new List<string>
+                {
+                    "C#",
+                    ".NET",
+                    "ASP.NET Core",
+                    "MVC",
+                    "Razor",
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "VB.NET",
+                    "MySQL",
+                    "Git",
+                    "GitHub"
+                },
 
-					new ProjectItem
-					{
-						Title = "Student Management System",
-						Stage = ProjectStage.Midterm,
-						RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
-						Description = "A system designed to organize and manage student information and academic records through a simple web interface.",
+                Projects = new List<ProjectItem>
+                {
+                    new ProjectItem
+                    {
+                        Title = "IT Management System",
 
-						TechStack = new List<string>
-						{
-							"C#",
-							"ASP.NET Core MVC",
-							"SQL"
-						},
+                        Stage = ProjectStage.Midterm,
 
-						ImagePath = "~/images/projects/student-management.png"
-					},
+                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
 
-					new ProjectItem
-					{
-						Title = "Vehicle Service Monitoring",
-						Stage = ProjectStage.Midterm,
-						RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
-						Description = "A vehicle service monitoring system that allows users to track service jobs, customer information, vehicle details, service status, and release information.",
+                        Description = "A web-based IT management system designed to manage IT operations, users, services, and other IT-related activities.",
 
-						TechStack = new List<string>
-						{
-							"C#",
-							"ASP.NET Core MVC",
-							"BCrypt",
-							"HTML",
-							"CSS"
-						},
+                        TechStack = new List<string>
+                        {
+                            "C#",
+                            "ASP.NET Core MVC",
+                            "HTML",
+                            "CSS"
+                        },
 
-						ImagePath = "~/images/projects/vehicle-service.png"
-					},
+                        ImagePath = "~/images/projects/it-management.png"
+                    },
 
-					new ProjectItem
-					{
-						Title = "Eyelottea Restobar POS",
-						Stage = ProjectStage.Prelim,
-						RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
-						Description = "A VB.NET Windows Forms application created to manage transactions, orders, payments, and inventory for a restobar.",
+                    new ProjectItem
+                    {
+                        Title = "Student Management System",
 
-						TechStack = new List<string>
-						{
-							"VB.NET",
-							"Windows Forms",
-							"MySQL"
-						},
+                        Stage = ProjectStage.Prelim,
 
-						ImagePath = "~/images/projects/eyelottea.png"
-					}
-				}
-			};
+                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
 
-			return View(profile);
-		}
-	}
+                        Description = "A student management system designed to organize student information and academic records.",
+
+                        TechStack = new List<string>
+                        {
+                            "C#",
+                            ".NET",
+                            "ASP.NET Core MVC",
+                            "SQL"
+                        },
+
+                        ImagePath = "~/images/projects/student-management.png"
+                    },
+
+                    new ProjectItem
+                    {
+                        Title = "Vehicle Service Monitoring",
+
+                        Stage = ProjectStage.Midterm,
+
+                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
+
+                        Description = "A vehicle service monitoring system for tracking customer information, vehicle details, service jobs, service status, and release information.",
+
+                        TechStack = new List<string>
+                        {
+                            "C#",
+                            "ASP.NET Core MVC",
+                            "BCrypt"
+                        },
+
+                        ImagePath = "~/images/projects/vehicle-service.png"
+                    },
+
+                    new ProjectItem
+                    {
+                        Title = "Eyelottea Restobar POS",
+
+                        Stage = ProjectStage.PreFinal,
+
+                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
+
+                        Description = "A VB.NET Windows Forms POS and inventory system designed to manage orders, transactions, payments, and inventory.",
+
+                        TechStack = new List<string>
+                        {
+                            "VB.NET",
+                            "Windows Forms",
+                            "MySQL"
+                        },
+
+                        ImagePath = "~/images/projects/eyelottea.png"
+                    }
+                }
+            };
+
+            return View(profile);
+        }
+    }
 }
 
