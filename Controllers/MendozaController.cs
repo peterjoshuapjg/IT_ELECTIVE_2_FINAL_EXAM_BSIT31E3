@@ -6,7 +6,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
     // This is Vaughn Matthew G. Mendoza's portfolio merged into the FINAL EXAM structure.
     // The controller intentionally uses the final-exam project's existing models.
     [Classmate("Vaughn Mendoza")]
-    public class VaughnMendozaController : Controller
+    public class MendozaController : Controller
     {
         public IActionResult Index()
         {
