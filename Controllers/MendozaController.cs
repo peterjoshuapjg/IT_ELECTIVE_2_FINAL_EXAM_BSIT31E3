@@ -1,6 +1,5 @@
 using IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
 {
