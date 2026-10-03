@@ -21,7 +21,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                 PhotoPath = "~/images/vaughn.jpg",
                 Email = "vaughnmendoza@gmail.com",
                 GitHubUrl = "https://github.com/VaughnMatt",
-                Skills = new List
+                Skills = new List<string>
                 {
                     "C#",
                     ".NET",
@@ -33,7 +33,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                     "Git",
                     "GitHub"
                 },
-                Projects = new List
+                Projects = new List<ProjectItem>
                 {
                     new ProjectItem
                     {
@@ -41,7 +41,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         Stage = ProjectStage.Prelim,
                         RepoUrl = "https://github.com/VaughnMatt/PersonalityTest",
                         Description = "An interactive personality test application that allows users to answer questions and discover their personality type.",
-                        TechStack = new List { "C#", "ASP.NET Core MVC", "HTML", "CSS" },
+                        TechStack = new List<string> { "C#", ".NET" },
                         ImagePath = "~/images/projects/personality-test.png"
                     },
                     new ProjectItem
@@ -50,7 +50,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         Stage = ProjectStage.Prelim,
                         RepoUrl = "https://github.com/dominicbillena06-prog/Hackthon---Personality-test",
                         Description = "A personality test application developed as part of a hackathon project focusing on interactive user testing.",
-                        TechStack = new List { "C#", "ASP.NET Core MVC", "HTML", "CSS" },
+                        TechStack = new List<string> { "C#", ".NET" },
                         ImagePath = "~/images/projects/hackathon-personality-test.png"
                     },
                     new ProjectItem
@@ -59,7 +59,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         Stage = ProjectStage.Midterm,
                         RepoUrl = "https://github.com/VaughnMatt/IT_ELECTIVE_2_MIDTERM_H1_H2_H3_Mendoza",
                         Description = "A collection of activities and exercises completed for the IT Elective 2 midterm assessment requirements.",
-                        TechStack = new List { "C#", "ASP.NET Core MVC", "HTML", "CSS" },
+                        TechStack = new List<string> { "C#", ".NET" },
                         ImagePath = "~/images/projects/midterm-h1-h2-h3.png"
                     },
                     new ProjectItem
@@ -68,7 +68,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         Stage = ProjectStage.Prelim,
                         RepoUrl = "https://github.com/VaughnMatt/IT_ELECTIVE_2_PRELIM_EXAM_VAUGHNN_MENDOZA",
                         Description = "A web development project created for the IT Elective 2 preliminary examination demonstrating key concepts covered in the course.",
-                        TechStack = new List { "C#", "ASP.NET Core MVC", "HTML", "CSS" },
+                        TechStack = new List<string> { "C#", ".NET" },
                         ImagePath = "~/images/projects/prelim-exam.png"
                     }
                 }
