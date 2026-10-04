@@ -122,7 +122,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                     {
                         Title = "IT Elective 2 Assignment One",
                         Stage = ProjectStage.Midterm,
-                        RepoUrl = "https://github.com/daimeryayap26-ship-it/Ayap_IT_ELECTIVE_2_Assignment_One",
+                        RepoUrl = "https://github.com/daimeryay26-ship-it/Ayap_IT_ELECTIVE_2_Assignment_One",
                         Description = "First assignment submission for IT Elective 2.",
                         TechStack = new List<string>
                         {
