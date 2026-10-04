@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
 {
+    [Classmate("Ayap, Daimery Gold")]
     public class DaimeryGoldAyapController : Controller
     {
         public IActionResult Index()
@@ -40,7 +41,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         {
                             "C#",
                             ".NET",
-                            "ASP.NET Core"
+                            "Web Development"
                         },
                         ImagePath = "~/images/project1.jpg"
                     },
@@ -48,9 +49,9 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                     new ProjectItem
                     {
                         Title = "Weather Forecast App",
-                        Stage = ProjectStage.Midterm,
+                        Stage = ProjectStage.Prelim,
                         RepoUrl = "https://github.com/daimeryayap26-ship-it/Weather_Forecast_Ayap",
-                        Description = "A weather forecast application that tracks live climate data.",
+                        Description = "A sleek weather forecast application that tracks live climate data.",
                         TechStack = new List<string>
                         {
                             "C#",
@@ -63,14 +64,13 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                     new ProjectItem
                     {
                         Title = "IT Elective BSIT 31E3",
-                        Stage = ProjectStage.Midterm,
+                        Stage = ProjectStage.Prelim,
                         RepoUrl = "https://github.com/daimeryayap26-ship-it/IT_ELECTIVE_BSIT_31E3_ayap_daimerygold",
                         Description = "Coursework and project repository for IT Elective BSIT 31E3.",
                         TechStack = new List<string>
                         {
                             "C#",
                             ".NET",
-                            "ASP.NET Core",
                             "GitHub"
                         },
                         ImagePath = "~/images/project3.jpg"
@@ -85,8 +85,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         TechStack = new List<string>
                         {
                             "C#",
-                            ".NET",
-                            "ASP.NET Core"
+                            ".NET"
                         },
                         ImagePath = "~/images/project4.jpg"
                     },
@@ -100,8 +99,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         TechStack = new List<string>
                         {
                             "C#",
-                            ".NET",
-                            "ASP.NET Core"
+                            ".NET"
                         },
                         ImagePath = "~/images/project5.jpg"
                     },
@@ -115,8 +113,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         TechStack = new List<string>
                         {
                             "C#",
-                            ".NET",
-                            "ASP.NET Core"
+                            ".NET"
                         },
                         ImagePath = "~/images/project6.jpg"
                     },
@@ -130,8 +127,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         TechStack = new List<string>
                         {
                             "C#",
-                            ".NET",
-                            "ASP.NET Core"
+                            ".NET"
                         },
                         ImagePath = "~/images/project7.jpg"
                     },
@@ -146,7 +142,6 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                         {
                             "C#",
                             ".NET",
-                            "ASP.NET Core",
                             "GitHub"
                         },
                         ImagePath = "~/images/project8.jpg"
