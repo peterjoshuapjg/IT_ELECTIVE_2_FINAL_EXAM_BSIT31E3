@@ -26,7 +26,7 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
 
                 Email = "christopherpantaleon@gmail.com",
 
-                GitHubUrl = "https://github.com/ChristopherPantaleon",
+                GitHubUrl = "https://github.com/Chant-prog",
 
                 Skills = new List<string>
                 {
@@ -48,13 +48,13 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                 {
                     new ProjectItem
                     {
-                        Title = "IT Management System",
+                        Title = "IT Elective 2 Prefinal Exam",
 
-                        Stage = ProjectStage.Midterm,
+                        Stage = ProjectStage.PreFinal,
 
-                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
+                        RepoUrl = "https://github.com/Chant-prog/IT_ELECTIVE_2_-BSIT-31E3-_PREFINAL_EXAM_Pantaleon_Christopher.git",
 
-                        Description = "A web-based IT management system designed to manage IT operations, users, services, and other IT-related activities.",
+                        Description = "Prefinal examination project for IT Elective 2.",
 
                         TechStack = new List<string>
                         {
@@ -64,68 +64,107 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
                             "CSS"
                         },
 
-                        ImagePath = "~/images/projects/it-management.png"
+                        ImagePath = "~/images/projects/prefinal-exam.png"
                     },
 
                     new ProjectItem
                     {
-                        Title = "Student Management System",
-
-                        Stage = ProjectStage.Prelim,
-
-                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
-
-                        Description = "A student management system designed to organize student information and academic records.",
-
-                        TechStack = new List<string>
-                        {
-                            "C#",
-                            ".NET",
-                            "ASP.NET Core MVC",
-                            "SQL"
-                        },
-
-                        ImagePath = "~/images/projects/student-management.png"
-                    },
-
-                    new ProjectItem
-                    {
-                        Title = "Vehicle Service Monitoring",
+                        Title = "Pet Grooming Appointment System",
 
                         Stage = ProjectStage.Midterm,
 
-                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
+                        RepoUrl = "https://github.com/Chant-prog/IT_ELECTIVE_2_MIDTERM_EXAM_Pet-Grooming-Appointment_Pantaleon_ChristopherAntonio.git",
 
-                        Description = "A vehicle service monitoring system for tracking customer information, vehicle details, service jobs, service status, and release information.",
+                        Description = "A pet grooming appointment system designed to manage appointments, customer details, and pet service schedules.",
 
                         TechStack = new List<string>
                         {
                             "C#",
                             "ASP.NET Core MVC",
-                            "BCrypt"
+                            "HTML",
+                            "CSS"
                         },
 
-                        ImagePath = "~/images/projects/vehicle-service.png"
+                        ImagePath = "~/images/projects/pet-grooming.png"
                     },
 
                     new ProjectItem
                     {
-                        Title = "Eyelottea Restobar POS",
+                        Title = "Modern Portfolio Quiz",
 
-                        Stage = ProjectStage.PreFinal,
+                        Stage = ProjectStage.Midterm,
 
-                        RepoUrl = "https://github.com/ChristopherPantaleon/IT_ELECTIVE_2_MIDTERM_EXAM",
+                        RepoUrl = "https://github.com/Chant-prog/Quiz_BSIT31E3_Pantaleon_Christopher_ModernPortfolio.git",
 
-                        Description = "A VB.NET Windows Forms POS and inventory system designed to manage orders, transactions, payments, and inventory.",
+                        Description = "A modern portfolio quiz web application for IT Elective 2.",
 
                         TechStack = new List<string>
                         {
-                            "VB.NET",
-                            "Windows Forms",
-                            "MySQL"
+                            "C#",
+                            "ASP.NET Core MVC",
+                            "HTML",
+                            "CSS"
                         },
 
-                        ImagePath = "~/images/projects/eyelottea.png"
+                        ImagePath = "~/images/projects/modern-portfolio.png"
+                    },
+
+                    new ProjectItem
+                    {
+                        Title = "BSIT 31E3 Prelim Assignment 1",
+
+                        Stage = ProjectStage.Prelim,
+
+                        RepoUrl = "https://github.com/Chant-prog/BSIT31E3_PRELIM_A1_Pantaleon_ChristopherAntonio.git",
+
+                        Description = "Prelim Assignment 1 coursework project.",
+
+                        TechStack = new List<string>
+                        {
+                            "C#",
+                            "ASP.NET Core MVC"
+                        },
+
+                        ImagePath = "~/images/projects/prelim-a1.png"
+                    },
+
+                    new ProjectItem
+                    {
+                        Title = "BSIT 31E3 Prelim Assignment 2",
+
+                        Stage = ProjectStage.Prelim,
+
+                        RepoUrl = "https://github.com/Chant-prog/BSIT31E3_Prelim_A2_PantaleonChristopherAntonio.git",
+
+                        Description = "Prelim Assignment 2 coursework project.",
+
+                        TechStack = new List<string>
+                        {
+                            "C#",
+                            "ASP.NET Core MVC"
+                        },
+
+                        ImagePath = "~/images/projects/prelim-a2.png"
+                    },
+
+                    new ProjectItem
+                    {
+                        Title = "Happy Birthday Web App",
+
+                        Stage = ProjectStage.PreFinal,
+
+                        RepoUrl = "https://github.com/Chant-prog/happy-birthday-beb.git",
+
+                        Description = "A personal birthday greeting web application.",
+
+                        TechStack = new List<string>
+                        {
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        },
+
+                        ImagePath = "~/images/projects/happy-birthday.png"
                     }
                 }
             };
@@ -134,4 +173,3 @@ namespace IT_ELECTIVE_FINAL_EXAM_BSIT_31E3.Controllers
         }
     }
 }
-
